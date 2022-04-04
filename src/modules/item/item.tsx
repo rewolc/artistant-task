@@ -12,9 +12,9 @@ const Item: React.FC<{
   return (
     <div className="item-cont">
       <div className="created">
-        <div className="text">created by</div>
+        <h2 className="text">created by</h2>
 
-        <div className="author">{author.display_name}</div>
+        <h2 className="author">{author.display_name}</h2>
       </div>
       <div className="collection-name-cont ">
         <div className="colelction-name">{name}</div>
@@ -22,14 +22,14 @@ const Item: React.FC<{
       <img src={img} alt="" />
       <div className="item-info-cont">
         <div className="available-cont">
-          <div className="available info-text">available</div>
-          <div className="howMany">
+          <h3 className="available info-text">available</h3>
+          <h3 className="howMany">
             {available} of {quantity}
-          </div>
+          </h3>
         </div>
         <div className="price-cont">
-          <div className="price-text info-text">price</div>
-          <div className="price">{price} ETH</div>
+          <h3 className="price-text info-text">price</h3>
+          <h3 className="price">{price} ETH</h3>
         </div>
       </div>
     </div>
