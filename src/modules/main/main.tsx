@@ -13,9 +13,8 @@ const Main: React.FC = () => {
   const { items } = useAppSelector((state) => state.itemReducer);
   const filtereItems = useMemo(
     () => items.filter((i) => i.quantity_available !== 0),
-    []
+    [items]
   );
-  console.log(items);
 
   return (
     <div className="main-cont">

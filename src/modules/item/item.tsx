@@ -24,7 +24,6 @@ const Item: React.FC<{
         <div className="available-cont">
           <div className="available info-text">available</div>
           <div className="howMany">
-            {" "}
             {available} of {quantity}
           </div>
         </div>
