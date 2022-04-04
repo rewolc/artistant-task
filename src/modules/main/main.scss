@@ -1,0 +1,14 @@
+.main-cont {
+  display: grid;
+  margin-top: 22px;
+  grid-template-rows: 482px;
+  position: relative;
+  .checkbox-cont {
+    position: absolute;
+    top: -25px;
+
+    .checkbox {
+      margin-right: 10px;
+    }
+  }
+}
